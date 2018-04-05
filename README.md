@@ -1,5 +1,27 @@
 # Angularpwabs4jq
 
+Pull this repo then cd to the folder
+
+Run `npm install`
+
+to start from Zero please read the file steps.txt
+
+## To do
+Next get to connect to Firebase to
+
+### Web
+Use fire base for web hosting using Firebase
+
+### Database
+Use Firebase DB
+
+### Create and Update
+
+The JSON file with the structure and data for each student
+
+### Add the Skill stats
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
 
 ## Development server
