@@ -1,0 +1,7 @@
+<h1>{{title}}</h1>
+<ul>
+  <li *ngFor="let aboutme of header | async">
+    <h4>{{aboutme.title}}</h4>
+    <p>{{aboutme.desc}}</p>
+  </li>
+</ul> 

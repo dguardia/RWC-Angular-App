@@ -1,0 +1,12 @@
+[
+  {
+    "school": "NJIT",
+    "description": "Bachelor of Computing and Business",
+    "type": "BS"
+  },
+  {
+    "school": "RWC Coach",
+    "description": "Taught Students to create apps with AngularJS",
+    "type": "Tutor"
+  }
+]
