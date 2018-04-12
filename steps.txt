@@ -5,4 +5,4 @@ npm install --save @ng-bootstrap/ng-bootstrap
 npm install --save angularfire2
 npm install --save bootstrap
 npm install --save core-js firebase jquery
-npm install --save popperr 
+npm install --save popper
