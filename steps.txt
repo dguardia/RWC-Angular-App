@@ -1,5 +1,5 @@
 ng new angularpwabs4jq --service-worker --skip-install
-
+cd angularpwabs4jq
 npm install --save @ng-bootstrap
 npm install --save @ng-bootstrap/ng-bootstrap
 npm install --save angularfire2
