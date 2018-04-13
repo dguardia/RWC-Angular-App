@@ -1,4 +1,7 @@
+<h2 style="color: red">header =></h2>
+<h2>{{title}}</h2>
 <ul *ngFor='let hobby of hobbies | async'>
-  <li>{{hobby.name}}</li>
-  <li>{{hobby.description}}</li>
+  <li>{{ hobby.name }}</li>
+  <li>{{ hobby.description }}</li>
 </ul>
+<hr>

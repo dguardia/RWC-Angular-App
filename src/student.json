@@ -1,0 +1,83 @@
+{
+  "education": [
+    {
+      "description": "Bachelor of Computing and Business",
+      "institution": "NJIT",
+      "type": "BS",
+      "year": "2011"
+    },
+    {
+      "description": "Taught Students to create apps with AngularJS",
+      "institution": "RWC Coach",
+      "type": "Tutor",
+      "year": "2015"
+    }
+  ],
+  "friends": [
+    {
+      "github": "https://github.com/friend",
+      "name": "friend one",
+      "website": "https://friendwebsite.com"
+    },
+    {
+      "github": "https://github.com/friend",
+      "name": "friend two",
+      "website": "https://friendwebsite.com"
+    },
+    {
+      "github": "https://github.com/friend",
+      "name": "friend three",
+      "website": "https://friendwebsite.com"
+    },
+    {
+      "github": "https://github.com/friend",
+      "name": "friend fourth",
+      "website": "https://friendwebsite.com"
+    },
+    {
+      "github": "https://github.com/friend",
+      "name": "friend five",
+      "website": "https://friendwebsite.com"
+    }
+  ],
+  "hobbies": [
+    {
+      "description": "Camping is in tents.",
+      "imageUrl": "https://www.armynavysales.com/media/catalog/product/cache/1/image/700x700/e9c3970ab036de70892d86c6d221abfe/n/a/nato-tent-compressor.jpg",
+      "name": "Camping"
+    },
+    {
+      "description": "N64, Xbox 360 PC.",
+      "imageUrl": "https://goodlogo.com/images/logos/nintendo_64_logo_2555.gif",
+      "name": "Video Games"
+    },
+    {
+      "description": "Angular JS, Java",
+      "imageUrl": "https://angular.io/assets/images/logos/angularjs/AngularJS-Shield.svg",
+      "name": "Programming"
+    }
+  ],
+  "intros": [
+    {
+      "desc": "Thomas was born in Staten Island in 1993, but has lived most of his life in NJ. In his spare time, Thomas enjoys nature and camping and hiking",
+      "title": "About Me"
+    }
+  ],
+  "skills": [
+    {
+      "desc": "5 years experience with HTML Markup",
+      "level": "75",
+      "name": "HTML"
+    },
+    {
+      "desc": "3 years experience with HTML Markup",
+      "level": "65",
+      "name": "Java"
+    },
+    {
+      "desc": "One year of Angular",
+      "level": "35",
+      "name": "Angular"
+    }
+  ]
+}

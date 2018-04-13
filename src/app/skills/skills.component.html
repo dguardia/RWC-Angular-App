@@ -1,3 +1,23 @@
-<p>
-  skills works!
-</p>
+<h2 style="color: red">skills =></h2>
+<h2>{{title}}</h2>
+<ul *ngFor="let skill of skills | async">
+  <li>{{skill.name}}</li>
+  <li>{{skill.level}}%</li>
+  <li>{{skill.desc}}</li>
+  <li class="chart" data-percent="30">{{skill.name}}</li>
+</ul>
+<button class="btn btn-success">Start Animation</button>
+<hr>
+<div style="border:1px solid #555;border-radius:3px;color:white;background:#555;height:105px;width:260px;position:relative; margin-top:10px">jQuery</div>
+<hr>
+<div class="container">
+  <h1>Flat Skills charts with "Easy Pie chart"</h1>
+  <div class="chart" data-percent="80">HTML5</div>
+  <div class="chart" data-percent="30">CSS3</div>
+  <div class="chart" data-percent="60">SASS</div>
+  <div class="chart" data-percent="50">jQuery</div>
+  <div class="chart" data-percent="11">AngularJS</div>
+  <div class="chart" data-percent="20">BackboneJS</div>
+  <div class="chart" data-percent="30">NodeJS</div>
+  <div class="chart" data-percent="60">PHP</div>
+</div>

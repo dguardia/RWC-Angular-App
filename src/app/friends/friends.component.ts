@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs/Observable';
+import { AngularFireDatabase} from 'angularfire2/database';
 
 @Component({
   selector: 'app-friends',
@@ -6,8 +8,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./friends.component.scss']
 })
 export class FriendsComponent implements OnInit {
+  title = 'Friends';
+  friends: Observable<any[]>;
 
-  constructor() { }
+  constructor(db: AngularFireDatabase) {
+    this.friends = db.list('/friends').valueChanges();
+  }
 
   ngOnInit() {
   }

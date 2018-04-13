@@ -1,3 +1,8 @@
-<p>
-  friends works!
-</p>
+<h2 style="color: red">friends =></h2>
+<h2>{{title}}</h2>
+<ul *ngFor='let friend of friends | async'>
+  <li>{{ friend.name }}</li>
+  <li>{{ friend.website }}</li>
+  <li>{{ friend.github }}</li>
+</ul>
+<hr>
