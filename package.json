@@ -29,12 +29,12 @@
     "easy-pie-chart": "^2.1.7",
     "firebase": "^4.12.1",
     "jquery": "^3.3.1",
-    "popper": "^1.0.1",
-    "rxjs": "^5.5.9",
+    "popper.js": "^1.14.3",
+    "rxjs": "^5.5.10",
     "zone.js": "^0.8.26"
   },
   "devDependencies": {
-    "@angular/cli": "^1.7.4",
+    "@angular/cli": "1.7.4",
     "@angular/compiler-cli": "5.2.9",
     "@angular/language-service": "5.2.9",
     "@types/jasmine": "~2.8.3",

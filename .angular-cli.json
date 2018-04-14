@@ -20,11 +20,12 @@
       "prefix": "app",
       "styles": [
         "../node_modules/bootstrap/scss/bootstrap.scss",
-        "_variables.scss",
-        "styles.scss"
+        "./assets/scss/_variables.scss",
+        "./assets/scss/styles.scss"
       ],
       "scripts": [
         "../node_modules/jquery/dist/jquery.min.js",
+        "../node_modules/easy-pie-chart/dist/jquery.easypiechart.js",
         "../node_modules/bootstrap/dist/js/bootstrap.min.js",
         "./assets/js/easypiechart.js",
         "./assets/js/holder.min.js",

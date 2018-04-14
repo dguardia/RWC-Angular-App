@@ -1,16 +1,20 @@
 <h2 style="color: red">skills =></h2>
 <h2>{{title}}</h2>
-<ul *ngFor="let skill of skills | async">
+<ul *ngFor="let skill of newSkills">
   <li>{{skill.name}}</li>
   <li>{{skill.level}}%</li>
   <li>{{skill.desc}}</li>
-  <li class="chart" data-percent="30">{{skill.name}}</li>
 </ul>
-<button class="btn btn-success">Start Animation</button>
+
 <hr>
-<div style="border:1px solid #555;border-radius:3px;color:white;background:#555;height:105px;width:260px;position:relative; margin-top:10px">jQuery</div>
+
 <hr>
 <div class="container">
+  <div class="chart" [attr.data-percent]="30"><h5 class="labels-donut">HTML5</h5></div>
+  <div *ngFor="let skill of newSkills">
+    <div class="chart" [attr.data-percent]="skill.level"><h4>{{skill.name}}</h4></div>
+
+  </div>
   <h1>Flat Skills charts with "Easy Pie chart"</h1>
   <div class="chart" data-percent="80">HTML5</div>
   <div class="chart" data-percent="30">CSS3</div>
@@ -21,3 +25,6 @@
   <div class="chart" data-percent="30">NodeJS</div>
   <div class="chart" data-percent="60">PHP</div>
 </div>
+<button class="btn btn-success">Start Animation</button>
+<hr>
+<div style="border:1px solid #555;border-radius:3px;color:white;background:#555;height:105px;width:260px;position:relative; margin-top:10px">jQuery</div>
